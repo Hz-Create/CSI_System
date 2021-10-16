@@ -1,0 +1,1 @@
+worker: node ./fortnine-discord_bot.js

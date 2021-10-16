@@ -1,0 +1,17 @@
+{
+  "name": "csi",
+  "version": "1.0.0",
+  "description": "csi system",
+  "main": "fortnine-discord_bot.js",
+  "scripts": {
+    "test": "node fortnite-discord_bot.js"
+  },
+  "author": "Hz",
+  "license": "ISC",
+  "engines": {
+    "node": "16.x"
+  },
+  "dependencies": {
+    "discord.js": "^12.5.3"
+  }
+}
