@@ -135,7 +135,7 @@ client.on('message', async message => {
         await message.channel.send('指定されたユーザーの自己紹介の有無を確認します。')
         await message.channel.send(`指定されたユーザー: ${target_user}`)
         // let channel = message.channel
-        let channel = client.channels.cache.get(SET_SERVER)
+        let channel = client.channels.cache.get(SET_CHANNEL)
         console.log(channel)
         console.log("space")
         let get_messages = await channel.messages.fetch({limit: 100})
@@ -236,7 +236,7 @@ client.on('message', async message => {
         // let intro_found_user = []
         // let intro_notfound_user = guild.members.fetch()
 
-        let channel = client.channels.cache.get(SET_SERVER)
+        let channel = client.channels.cache.get(SET_CHANNEL)
         console.log(channel)
         console.log("space")
         let get_messages = await channel.messages.fetch({limit: 100})
