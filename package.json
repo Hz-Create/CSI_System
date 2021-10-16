@@ -2,9 +2,9 @@
   "name": "csi",
   "version": "1.0.0",
   "description": "csi system",
-  "main": "fortnine-discord_bot.js",
+  "main": "discord_bot.js",
   "scripts": {
-    "test": "node fortnite-discord_bot.js"
+    "test": "node discord_bot.js"
   },
   "author": "Hz",
   "license": "ISC",
