@@ -48,8 +48,8 @@ Discord.js V13
 また本プログラムの文章は製作者の使用に特化した文章になっているので、そちらも適宜修正してお使いください。
 # Author
 
-* Hz
-* Discord: Ryupex#1243
+_Hz_
+_Discord: Ryupex#1243_
 
 
 # License
@@ -57,3 +57,5 @@ Discord.js V13
 Copyright (c) 2021 Hz
 
 [Released under the MIT license](https://opensource.org/licenses/mit-license.php)
+
+Thank you!!!
