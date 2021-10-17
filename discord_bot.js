@@ -1,7 +1,3 @@
-// const { validateRequiredParameters } = require('@discordjs/builders/dist/interactions/slashCommands/Assertions')
-// const { Client, Intents, MessageEmbed, TextChannel } = require('discord.js');
-
-// const client = new Client({ intents: [Intents.FLAGS.GUILDS, Intents.FLAGS.GUILD_MESSAGES, Intents.FLAGS.GUILD_MEMBERS] });
 
 // module
 const Collection = require("@discordjs/collection");
