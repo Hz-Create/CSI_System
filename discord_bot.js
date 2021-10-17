@@ -19,7 +19,7 @@ const Discord = require('discord.js')
 const client = new Discord.Client()
 
 
-// const channels = message.guild.channel
+
 client.on('ready', () => {
   console.log(`${client.user.tag} でログインしています。`)
 })
@@ -53,7 +53,7 @@ client.on('message', async message => {
     ],
 	timestamp: new Date(),
     };
-    // message.channel.send({ embeds: [helpEmbed] });
+
 
     // Help
     await message.channel.send(
@@ -164,17 +164,14 @@ client.on('message', async message => {
         console.log("space")
         console.log(get_messages.filter(message => message.author == target_user))
 
-        // let get_messages = csi_channnel.messages.fetch( {limit: 1000})
-        // let messages = await client.channels.cache.get('891207834723840041').fetch({ limit: 1000})
-        // client.get_messages.cache.forEach(i => console.log(i.author))
+
         let target_message = get_messages.filter(messages => messages.author.username == target_user)
-        // target_message = target_message.content
+
 
         console.log(target_message.map(message => message.content))
 
         let target_message_show = get_message_show.find(messages => messages.author.username == target_user)
-        // target_message_show = target_message_show.fetch({limit:1})
-        // target_message_show = target_message_show.map(message => message.content)
+
 
         // 検出結果
         console.log("space")
